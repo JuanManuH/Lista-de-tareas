@@ -1,0 +1,87 @@
+.task-card{
+    margin-top: 1rem;
+    border: 1px solid gray;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 0px 0 10px 15px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,10%);
+}
+
+.btn-card{
+    margin-right: -5px;
+    position: relative;
+    top: -2.6rem;
+    left: -1px;
+    border-radius: 5px 5px 0 0 ;
+    padding: 0.5rem;
+    border: 1px solid gray;
+}
+
+.btn-card:hover{
+    box-shadow: -2px -2px 3px 0px rgba(135,133,135,1);
+}
+
+.priority-card{
+    font-size: 24px;
+    color: whitesmoke;
+    border-radius: 7px 7px 0 0 ;
+    padding: 0.7rem;
+    position: absolute;
+    top: -3.2rem;
+    right: -1px;
+}
+
+.normalPriority{
+    background-color: rgb(25,135,84);
+}
+
+.importantPriority{
+    background-color: rgb(13,110,253);
+}
+
+.urgentPriority{
+    background-color: rgb(220,53,69);
+}
+
+.title-card{
+    font-size: 30px;
+    margin-top: -2.6rem;
+    height: 8rem;
+    overflow-y: auto;
+    line-break: auto;
+    background-color: rgb(240, 240, 240);
+    padding: 1rem 0.25rem 0.5rem 0.5rem;
+}
+.description-card{
+    margin-top: -0.5rem;
+    font-size: 20px;
+    padding: 0.7rem 0.25rem 0.5rem 0.5rem;
+    border-radius: 0 0 15px 15px;
+    height: 16.7rem;
+    overflow: auto ;
+    line-break: auto; 
+}
+
+::-webkit-scrollbar{
+    width: 1rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(220, 220, 220);
+    border-radius: 100vw;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(135,133,135,0.7);
+    border-radius: 100vw;
+    border: 0.15rem solid rgb(220, 220, 220);
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(135,133,135,1);
+}
+

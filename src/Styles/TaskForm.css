@@ -1,0 +1,37 @@
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.title{
+    width: 70vw;
+}
+
+.priority{
+    position: relative;
+    right: 0;
+    width: auto;
+    min-width: 20vw;
+}
+
+.text-area-btn-container{
+/* display: flex;
+align-items: center;
+justify-content: space-between; */
+position: relative;
+}
+
+.btn-addTask{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    transform: translate(0%, -2%) ;
+    height: 60px;
+    width: 60px;
+}
+
+.input-description{
+    width: calc(100% - 70px)
+}

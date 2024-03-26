@@ -1,0 +1,11 @@
+.task-table thead {
+    display: inline  ;
+}
+
+.title-head{
+    padding-right: 120px;
+}
+
+.title-description{
+left: 5rem;
+} 
